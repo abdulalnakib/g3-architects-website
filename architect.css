@@ -210,6 +210,25 @@ main {
     width: 165px;
 }
 
+/* footer styles */
+
+.footer-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+.footer-text {
+    margin: 40px 410px;
+}
+
 /* Responsive styles */
 
 /* Small devices */
@@ -250,6 +269,10 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+
+    .footer-text {
+        margin: 40px 10px;
+    }
 }
 
 /* Medium devices */
@@ -264,5 +287,9 @@ main {
     .team-container,
     .sponsors-img-container {
         flex-direction: column;
+    }
+
+    .footer-text {
+        margin: 40px 200px;
     }
 }
